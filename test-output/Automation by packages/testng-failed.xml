@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation by packages]">
+  <test name="com.dice(failed)">
+    <classes>
+      <class name="com.dice.FirstTest">
+        <methods>
+          <include name="methodTearDown"/>
+          <include name="methodSetUp"/>
+          <include name="firstTestMethod"/>
+        </methods>
+      </class> <!-- com.dice.FirstTest -->
+      <class name="com.dice.SecondTest">
+        <methods>
+          <include name="methodTearDown"/>
+          <include name="secondTestMethod"/>
+          <include name="methodSetUp"/>
+        </methods>
+      </class> <!-- com.dice.SecondTest -->
+    </classes>
+  </test> <!-- com.dice(failed) -->
+</suite> <!-- Failed suite [Automation by packages] -->

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FirstTestSuite" duration-ms="35540" started-at="2020-09-15T10:11:41Z" finished-at="2020-09-15T10:12:16Z">
+    <groups>
+      <group name="positive">
+        <method signature="LogInTest.positiveLogInTest()[pri:1, instance:com.dice.LogInTest@482f8f11]" name="positiveLogInTest" class="com.dice.LogInTest"/>
+        <method signature="LogInTest.positiveLogInTest()[pri:1, instance:com.dice.LogInTest@4501b7af]" name="positiveLogInTest" class="com.dice.LogInTest"/>
+      </group> <!-- positive -->
+    </groups>
+    <test name="LogInTest-FF" duration-ms="34924" started-at="2020-09-15T10:11:41Z" finished-at="2020-09-15T10:12:16Z">
+      <class name="com.dice.LogInTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.dice.LogInTest@482f8f11]" name="setUpClass" is-config="true" duration-ms="113" started-at="2020-09-15T12:11:41Z" finished-at="2020-09-15T12:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29ca901e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="methodSetUp(java.lang.String)[pri:0, instance:com.dice.LogInTest@482f8f11]" name="methodSetUp" is-config="true" duration-ms="14280" started-at="2020-09-15T12:11:41Z" finished-at="2020-09-15T12:11:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="positiveLogInTest()[pri:1, instance:com.dice.LogInTest@482f8f11]" name="positiveLogInTest" duration-ms="15557" started-at="2020-09-15T12:11:55Z" finished-at="2020-09-15T12:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogInTest -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:com.dice.LogInTest@482f8f11]" name="methodTearDown" is-config="true" duration-ms="4951" started-at="2020-09-15T12:12:11Z" finished-at="2020-09-15T12:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- com.dice.LogInTest -->
+    </test> <!-- LogInTest-FF -->
+    <test name="LogInTest-CH" duration-ms="35540" started-at="2020-09-15T10:11:41Z" finished-at="2020-09-15T10:12:16Z">
+      <class name="com.dice.LogInTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.dice.LogInTest@4501b7af]" name="setUpClass" is-config="true" duration-ms="113" started-at="2020-09-15T12:11:41Z" finished-at="2020-09-15T12:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5649fd9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="methodSetUp(java.lang.String)[pri:0, instance:com.dice.LogInTest@4501b7af]" name="methodSetUp" is-config="true" duration-ms="8007" started-at="2020-09-15T12:11:41Z" finished-at="2020-09-15T12:11:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="positiveLogInTest()[pri:1, instance:com.dice.LogInTest@4501b7af]" name="positiveLogInTest" duration-ms="26217" started-at="2020-09-15T12:11:49Z" finished-at="2020-09-15T12:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogInTest -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:com.dice.LogInTest@4501b7af]" name="methodTearDown" is-config="true" duration-ms="1181" started-at="2020-09-15T12:12:15Z" finished-at="2020-09-15T12:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- com.dice.LogInTest -->
+    </test> <!-- LogInTest-CH -->
+  </suite> <!-- FirstTestSuite -->
+</testng-results>
